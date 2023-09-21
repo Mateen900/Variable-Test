@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Variable Test"
-        run: echo "My Variable is $VAR-ACT"
+        run: echo "My Variable is ${{ variables.VAR-ACT }}"
